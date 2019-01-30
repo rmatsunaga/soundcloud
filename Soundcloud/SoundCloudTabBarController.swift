@@ -15,8 +15,9 @@ class SoundCloudTabBarController: UITabBarController {
         
         
         var tabBarList: [UIViewController] = []
-
-        let firstViewController = HomeViewController()
+        let layout = UICollectionViewFlowLayout()
+        let firstViewController = HomeViewController(collectionViewLayout: layout)
+        
         firstViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag:0)
         tabBarList.append(firstViewController)
         

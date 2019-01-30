@@ -16,6 +16,8 @@
 		8B4EE89922012D010016E98F /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89822012D010016E98F /* StreamViewController.swift */; };
 		8B4EE89B22012D0F0016E98F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89A22012D0F0016E98F /* SearchViewController.swift */; };
 		8B4EE89D22012D190016E98F /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89C22012D190016E98F /* LibraryViewController.swift */; };
+		8B4EE89F220255E40016E98F /* SinglePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89E220255E40016E98F /* SinglePhotoCell.swift */; };
+		8B4EE8A1220255F50016E98F /* MultiPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE8A0220255F50016E98F /* MultiPhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		8B4EE89822012D010016E98F /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		8B4EE89A22012D0F0016E98F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		8B4EE89C22012D190016E98F /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		8B4EE89E220255E40016E98F /* SinglePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePhotoCell.swift; sourceTree = "<group>"; };
+		8B4EE8A0220255F50016E98F /* MultiPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				8B4EE884220126E20016E98F /* AppDelegate.swift */,
 				8B4EE896220129E40016E98F /* SoundCloudTabBarController.swift */,
 				8B4EE886220126E20016E98F /* HomeViewController.swift */,
+				8B4EE89E220255E40016E98F /* SinglePhotoCell.swift */,
+				8B4EE8A0220255F50016E98F /* MultiPhotoCell.swift */,
 				8B4EE89822012D010016E98F /* StreamViewController.swift */,
 				8B4EE89A22012D0F0016E98F /* SearchViewController.swift */,
 				8B4EE89C22012D190016E98F /* LibraryViewController.swift */,
@@ -147,9 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4EE89F220255E40016E98F /* SinglePhotoCell.swift in Sources */,
 				8B4EE89B22012D0F0016E98F /* SearchViewController.swift in Sources */,
 				8B4EE89922012D010016E98F /* StreamViewController.swift in Sources */,
 				8B4EE887220126E20016E98F /* HomeViewController.swift in Sources */,
+				8B4EE8A1220255F50016E98F /* MultiPhotoCell.swift in Sources */,
 				8B4EE897220129E40016E98F /* SoundCloudTabBarController.swift in Sources */,
 				8B4EE89D22012D190016E98F /* LibraryViewController.swift in Sources */,
 				8B4EE885220126E20016E98F /* AppDelegate.swift in Sources */,
