@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		8B4EE885220126E20016E98F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE884220126E20016E98F /* AppDelegate.swift */; };
-		8B4EE887220126E20016E98F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE886220126E20016E98F /* ViewController.swift */; };
+		8B4EE887220126E20016E98F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE886220126E20016E98F /* HomeViewController.swift */; };
 		8B4EE88A220126E20016E98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EE888220126E20016E98F /* Main.storyboard */; };
 		8B4EE88C220126E30016E98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EE88B220126E30016E98F /* Assets.xcassets */; };
 		8B4EE88F220126E30016E98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EE88D220126E30016E98F /* LaunchScreen.storyboard */; };
+		8B4EE897220129E40016E98F /* SoundCloudTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE896220129E40016E98F /* SoundCloudTabBarController.swift */; };
+		8B4EE89922012D010016E98F /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89822012D010016E98F /* StreamViewController.swift */; };
+		8B4EE89B22012D0F0016E98F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89A22012D0F0016E98F /* SearchViewController.swift */; };
+		8B4EE89D22012D190016E98F /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EE89C22012D190016E98F /* LibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B4EE881220126E20016E98F /* Soundcloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundcloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4EE884220126E20016E98F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B4EE886220126E20016E98F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B4EE886220126E20016E98F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8B4EE889220126E20016E98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B4EE88B220126E30016E98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4EE88E220126E30016E98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B4EE890220126E30016E98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4EE896220129E40016E98F /* SoundCloudTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudTabBarController.swift; sourceTree = "<group>"; };
+		8B4EE89822012D010016E98F /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		8B4EE89A22012D0F0016E98F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8B4EE89C22012D190016E98F /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				8B4EE884220126E20016E98F /* AppDelegate.swift */,
-				8B4EE886220126E20016E98F /* ViewController.swift */,
+				8B4EE896220129E40016E98F /* SoundCloudTabBarController.swift */,
+				8B4EE886220126E20016E98F /* HomeViewController.swift */,
+				8B4EE89822012D010016E98F /* StreamViewController.swift */,
+				8B4EE89A22012D0F0016E98F /* SearchViewController.swift */,
+				8B4EE89C22012D190016E98F /* LibraryViewController.swift */,
 				8B4EE888220126E20016E98F /* Main.storyboard */,
 				8B4EE88B220126E30016E98F /* Assets.xcassets */,
 				8B4EE88D220126E30016E98F /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4EE887220126E20016E98F /* ViewController.swift in Sources */,
+				8B4EE89B22012D0F0016E98F /* SearchViewController.swift in Sources */,
+				8B4EE89922012D010016E98F /* StreamViewController.swift in Sources */,
+				8B4EE887220126E20016E98F /* HomeViewController.swift in Sources */,
+				8B4EE897220129E40016E98F /* SoundCloudTabBarController.swift in Sources */,
+				8B4EE89D22012D190016E98F /* LibraryViewController.swift in Sources */,
 				8B4EE885220126E20016E98F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
